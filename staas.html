@@ -1,0 +1,253 @@
+<html>
+<head>
+<title>staas</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+    <style>
+        .jumbotron {
+                background-color: #2d2d30;
+                color: #ffffff;
+                font-family: Montserrat, sans-serif;
+            font-family: Domine;
+                margin-bottom: 0px;
+                    }
+        .nav-tabs li a {
+      color: #777;
+  }  
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      font-family: Domine;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+        
+    .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+      border-color:#2d2d30;
+    font-family: Domine;
+    
+  }
+    .thumbnail p {
+      margin: 15px 0px 20px;
+      
+  }
+        
+    .thumbnail p strong {
+      margin: 15px 0px 10px;
+      margin-top: 15px;
+      color: #555;
+      font-size: 25px;
+        }
+    .form-check {
+            font-family: Domine;
+            font-size: 20px;
+        margin-left: -150px;
+        }    
+    .form-check-label1 {
+            margin-left: -85px;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            font-family: Domine;
+            font-size: 20px;
+        }   
+ .btn {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+     margin-top: 5px;
+  }
+    
+        .btn-block {
+                margin-top: 25px;
+}
+        }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+       .modal-header, h4, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 35px;
+      font-family: Domine;
+  }
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+  .modal-footer {
+    margin-top: -10px;
+        }
+        .thumbnail img {
+            width: 266px;
+            height: 166px;
+        }
+    </style>
+</head>
+
+<body>
+     <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">TUVI </h1>
+            <h6 class="lead">Fastest growimg cloud network......</h6>
+        </div>
+    </div>
+
+    
+    
+        
+    <nav class="navbar navbar-default navbar-fixed-top" >
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="/index.html">TUVI Cloud</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/saas.html">SAAS</a></li>
+        <li><a href="/iaas.html">IAAS</a></li>
+        <li><a href="/staas.html">STAAS</a></li>
+        <li><a href="/login.html">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <!--container services section-->
+    
+    <div class="row text-center" style=" background-color: #2d2d30;">
+      <div class="col-sm-offset-2">
+ 
+	<div class="row">
+		<div class="col-sm-offset-1 col-sm-3" >
+        <div class="thumbnail">
+          <img src="/images/obj.jpg"> 
+          <p><strong>Object Storage</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Know More</button>
+       </div>
+      </div>
+        <!--Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4> Object Storage </h4>
+        </div>
+          
+        <div class="modal-body">
+          <form role="form">
+             <div class="form-check">
+  <label class="form-check-label1">
+    <input class="form-check-input" type="radio" name="exampleRadios"
+           id="exampleRadios1" value="cans" checked>
+      Creating a New Storage
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="exampleRadios"
+           id="exampleRadios3" value="etes">
+      Extending The Existing Storage
+  </label>
+</div>      
+           
+             <a href="/cgi-bin/obsamba.py"> <button type="submit" class="btn btn-block">Get In
+
+              </button></a>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+        
+            <div class="col-sm-offset-2 col-sm-3" >
+        <div class="thumbnail">
+          <img src="/images/blk.jpg">
+          <p><strong>Block Storage</strong></p>
+        
+          <button class="btn" data-toggle="modal" data-target="#myModal1">Know More</button>
+       </div>
+      </div>
+            
+     
+    <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4> Block Storage </h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="psw"> Enter Drive Name</label>
+              <input type="text" class="form-control" id="psw" placeholder="Drive Name">
+            </div>
+            <div class="form-group">
+              <label for="drive"> Enter Drive Storage (like 100K/10M/1G)</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter Size">
+            </div>
+             <a href="/cgi-bin/block.py">  <button type="submit" class="btn btn-block">Get In 
+            
+                 </button></a>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>
